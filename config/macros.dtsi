@@ -1,12 +1,30 @@
+macro_screenshot: macro_screenshot{
+compatible = "zmk,behavior-macro";
+label = "macro_screenshot";
+#binding-cells = <0>;
+bindings = <&kp LG(LC(LS(NUMBER_4)))>;
+};
+macro_bright_dec: macro_bright_dec{
+compatible = "zmk,behavior-macro";
+label = "macro_bright_dec";
+#binding-cells = <0>;
+bindings = <&kp C_BRI_DEC>;
+};
+macro_bright_inc: macro_bright_inc{
+compatible = "zmk,behavior-macro";
+label = "macro_bright_inc";
+#binding-cells = <0>;
+bindings = <&kp C_BRI_UP>;
+};
 macro_show_windows: macro_show_windows{
-  compatible = "zmk,behavior-macro";
-  label = "macro_show_windows";
-  #binding-cells = <0>;
-  bindings = <&kp LC(UP_ARROW)>;
+compatible = "zmk,behavior-macro";
+label = "macro_show_windows";
+#binding-cells = <0>;
+bindings = <&kp LC(UP_ARROW)>;
 };
 macro_lock_mac: macro_lock_mac{
-  compatible = "zmk,behavior-macro";
-  label = "macro_lock_mac";
-  #binding-cells = <0>;
-  bindings = <&kp LG(LC(Q))>;
+compatible = "zmk,behavior-macro";
+label = "macro_lock_mac";
+#binding-cells = <0>;
+bindings = <&kp LG(LC(Q))>;
 };
