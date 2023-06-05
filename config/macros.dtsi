@@ -1,3 +1,21 @@
+macro_win_show_win: macro_win_show_win{
+compatible = "zmk,behavior-macro";
+label = "macro_win_show_win";
+#binding-cells = <0>;
+bindings = <&kp LG(T)>;
+};
+macro_scrshot_win: macro_scrshot_win{
+compatible = "zmk,behavior-macro";
+label = "macro_scrshot_win";
+#binding-cells = <0>;
+bindings = <&kp LG(PRINTSCREEN)>;
+};
+macro_lock_win: macro_lock_win{
+compatible = "zmk,behavior-macro";
+label = "macro_lock_win";
+#binding-cells = <0>;
+bindings = <&kp LG(L)>;
+};
 macro_screenshot: macro_screenshot{
 compatible = "zmk,behavior-macro";
 label = "macro_screenshot";
